@@ -98,3 +98,80 @@
   padding-bottom: 30px;
   text-align: center;
 }
+
+.skills h1 {
+  padding-top:100px ;
+}
+
+.programs {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.skills-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+
+.skills-info p {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 100%;
+  max-width: 80px;
+  color: #828282;
+  padding: 24px 0;
+  margin: 0 auto;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.skills-image {
+  margin-left:28.5px;
+}
+
+.portfolio {
+  padding-top: 100px;
+  background: #F6F6F6;
+}
+
+
+.port {
+  padding-bottom: 45px;
+}
+
+.after-img {
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  text-decoration-line: underline;
+  color: #070707;
+  padding-top: 45px;
+}
+
+.work {
+  padding-bottom: 45px;
+}
+
+.img-plane {
+  max-width: 1250px;
+  max-height: 700px;
+  width: 105%;
+}
+
+.img-braun {
+  width: 105%;
+}
+
+.img-reebook {
+  width: 105%;
+}
