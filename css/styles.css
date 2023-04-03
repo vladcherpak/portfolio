@@ -115,6 +115,15 @@
   padding-bottom: 100px;
 }
 
+@media screen and ( max-width:768px) {
+  .skills-info  {
+     flex-wrap: wrap;
+     max-width: 400px;    
+     display: flex; 
+     margin: 0 auto;
+  }
+}
+
 .skills-info p {
   font-size: 14px;
   line-height: 17px;
@@ -133,11 +142,24 @@
   max-width: 200px;
   width: 100%;
 }
-
-.skills-image {
-  margin-left:28.5px;
+@media screen and ( max-width:768px) {
+  .skill-list  {
+     padding-bottom: 50px;
+  }
 }
 
+.skills-image {
+  max-width: 88px;
+
+}
+
+.skills-item {
+  
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
 .portfolio {
   padding-top: 100px;
   background: #F6F6F6;
@@ -156,6 +178,7 @@
   text-decoration-line: underline;
   color: #070707;
   padding-top: 45px;
+  flex-wrap: wrap;
 }
 
 .work {
@@ -163,15 +186,76 @@
 }
 
 .img-plane {
-  max-width: 1250px;
-  max-height: 700px;
-  width: 105%;
+  max-width: 100%;
+  margin-bottom: 45px;
+}
+
+.img-plane:hover {
+  background-color: #000;
+  opacity: 0.8;
+  filter: alpha(opacity=80) black;
+}
+
+.img-braun:hover {
+  background-color: #000;
+  opacity: 0.8;
+  filter: alpha(opacity=80) black;
+}
+
+.img-reebook:hover {
+  background-color: #000;
+  opacity: 0.8;
+  filter: alpha(opacity=80) black;
 }
 
 .img-braun {
-  width: 105%;
+  width: 100%;
 }
 
 .img-reebook {
-  width: 105%;
+  width: 100%;
+}
+
+.footer {
+  padding-top: 100px;
+}
+
+.footer-p {
+  text-align: center;
+  max-width: 290px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.footer-button {
+  background: #070707;
+  color: #FFFFFF;
+  width: 180px;
+  height: 42px;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+
+.contacts-list {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  max-width: 180px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.footer-inner {
+  text-align: center;
 }
